@@ -1,0 +1,16 @@
+Hello my name is tariq and in this lesson im learning on how to switch between branches in github
+
+Here are some instructions to remember
+
+git add text.txt
+git push origin master
+git checkout -b branchname
+git commit -m "Message"
+cd
+pwd
+git log
+git status
+rm - remove
+git clone www.gitrepo
+mkdir
+git init 
