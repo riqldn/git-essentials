@@ -11,4 +11,4 @@ git commit -m "message"
 git init 
 rm
 git push origin branchname
-
+git merge
