@@ -1,0 +1,14 @@
+git remote add .......
+git add
+git status
+git log
+cd
+pwd
+ls -la
+git checkout tariq.txt
+git checkout -b branchname
+git commit -m "message"
+git init 
+rm
+git push origin branchname
+git merge
