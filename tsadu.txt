@@ -6,9 +6,14 @@ cd
 pwd
 ls -la
 git checkout tariq.txt
-git checkout -b branchname
+git checkout -b branchname - to create new branch
 git commit -m "message"
 git init 
 rm
 git push origin branchname
 git merge
+git pull origin "branch" - to pull updates from github
+
+if both github and local git are missing files
+first pull from git hub
+then push everything into github
