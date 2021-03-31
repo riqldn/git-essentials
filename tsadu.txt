@@ -30,3 +30,4 @@ and write
 
 to change or fix an error/ commit typo 
 git commit --amend
+forking a repo on git hub will copy all of that repository into your own profile
