@@ -1,3 +1,4 @@
+
 git remote add .......
 git add
 git status
@@ -13,7 +14,16 @@ rm
 git push origin branchname
 git merge
 git pull origin "branch" - to pull updates from github
-
+if you change a file in git and then "git diff 'name' " to see file changes
 if both github and local git are missing files
 first pull from git hub
 then push everything into github
+
+use a .gitignore file and write the names of the files you want to be ignored so eg nano .gitignore
+
+to add an git alias "special command" such as kalobs git lg you do
+
+nano ~/.gitconfig
+
+then add [alias]
+and write 
