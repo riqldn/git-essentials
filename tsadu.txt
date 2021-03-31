@@ -27,3 +27,6 @@ nano ~/.gitconfig
 
 then add [alias]
 and write 
+
+to change or fix an error/ commit typo 
+git commit --amend
