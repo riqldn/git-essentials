@@ -1,4 +1,5 @@
 
+
 git remote add .......
 git add
 git status
@@ -6,7 +7,7 @@ git log
 cd
 pwd
 ls -la
-git checkout tariq.txt
+git checkout tariq.txt -- to recover a file
 git checkout -b branchname - to create new branch
 git commit -m "message"
 git init 
@@ -31,3 +32,14 @@ and write
 to change or fix an error/ commit typo 
 git commit --amend
 forking a repo on git hub will copy all of that repository into your own profile
+
+to undo a commit 
+
+git reset --soft line# (delete commit but keep file)
+then git log --oneline
+or git reset --hard line## (delete commit and the file)
+to unstage git reset sample.txt
+git reset HEAD sample.txt
+
+if you have removed a commit locally and it still exists in git hub use the following insted of having to pull then push
+git push origin master -f
