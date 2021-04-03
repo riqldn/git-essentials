@@ -43,3 +43,5 @@ git reset HEAD sample.txt
 
 if you have removed a commit locally and it still exists in git hub use the following insted of having to pull then push
 git push origin master -f
+
+git rebase - if there are multiple tree branches, checkout to master and then use git rebase "branch name" to plop branch on top of master (singular branch)
