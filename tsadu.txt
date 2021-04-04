@@ -47,3 +47,4 @@ git push origin master -f
 git rebase - if there are multiple tree branches, checkout to master and then use git rebase "branch name" to plop branch on top of master (singular branch)
 if theres a merge conflict edit the conflict file, add, commit, and then push
 if theres a rebase conflict edit the conflict file, add, commit, and then git rebase --continue
+
