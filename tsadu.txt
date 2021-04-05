@@ -48,3 +48,7 @@ git rebase - if there are multiple tree branches, checkout to master and then us
 if theres a merge conflict edit the conflict file, add, commit, and then push
 if theres a rebase conflict edit the conflict file, add, commit, and then git rebase --continue
 
+create a file
+you create/ edit a file to continue again later
+instead of commit and adding the file you use git stash
+then to recover the file to edit later you git stash apply
